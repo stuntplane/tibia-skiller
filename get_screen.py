@@ -16,5 +16,3 @@ def get_latest_image(dirpath, valid_extensions=('jpg','jpeg','png')):
 
     return max(valid_files, key=os.path.getmtime)
 
-dir = "C:\\Users\\Marcin\\AppData\\Local\\Tibia\\packages\\Tibia\\screenshots"
-print(get_latest_image(dir))
